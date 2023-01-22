@@ -1,0 +1,5 @@
+.DS_Store
+venv
+instance
+flask_session
+*.pyc

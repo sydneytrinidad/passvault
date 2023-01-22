@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<body class="index">
+    <div class="index__wrapper">
+        <p class="index__summary">
+            PassVault allows you to add in your passwords for any website you want.
+        </p>
+        <div class="index__register">
+            <a href="{{url_for('register')}}" class="nav__register">Register now!</a>
+        </div>
+    </div>
+</body>
+{% endblock %}

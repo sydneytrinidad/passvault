@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<body class="register">
+    <form action="/register" method="post" class="register--form">
+        <input type="text" name="register--email" placeholder="email" class="register--email">
+        <input type="text" name="register--username" placeholder="username" class="register--username">
+        <input type="password" name="register--password" placeholder="password" class="register--password">
+        <input type="submit" name="register--submit" placeholder="submit" class="register--submit">
+        <p class="register--error">{{error}}</p>
+    </form>
+</body>
+{% endblock %}
